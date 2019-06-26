@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:layout_gravity="center"
+                android:id="@+id/Think_CheckBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Think_txt_Number"
+                android:layout_width="44dp"
+                android:layout_height="match_parent"
+                android:text="숫자"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Think_txt_Year"
+                android:layout_width="61dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="2018" />
+
+            <TextView
+                android:layout_width="23dp"
+                android:layout_height="match_parent"
+                android:text="년"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Think_txt_month"
+                android:layout_width="39dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="2" />
+
+            <TextView
+                android:layout_width="23dp"
+                android:layout_height="match_parent"
+                android:text="월"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/Think_txt_day"
+                android:layout_width="38dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:hint="8" />
+
+            <TextView
+                android:layout_width="23dp"
+                android:layout_height="match_parent"
+                android:text="일"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp" />
+
+            <CheckBox
+                android:id="@+id/Think_share"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="공유" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:textSize="1dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Think_txt_Opinion"
+                        android:layout_width="362dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="My Think"
+                        android:inputType="textPersonName" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:textSize="1dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Think_txt_Source"
+                        android:layout_width="349dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:hint="Source"
+                        android:inputType="textPersonName" />
+
+                    <TextView
+                        android:id="@+id/Think_Change"
+                        android:layout_width="86dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:text="change" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

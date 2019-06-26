@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.idealist.www.myapplication.Item.mbti">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#000000"
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mbti성격유형검사는 1940년 미국에서 만들어진" />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#000000"
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="세계에서 가장 범용적으로 쓰이는 성격유형 검사입니다." />
+
+        <TextView
+            android:gravity="center"
+            android:textColor="#000000"
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="인간의 성격을 다음과 같이 총 16가지로 구분하고 있습니다." />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/mbti1"
+            />
+
+        <Button
+            android:id="@+id/gombti"
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:text="무료검사하러가기" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

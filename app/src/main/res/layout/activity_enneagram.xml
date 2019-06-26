@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.idealist.www.myapplication.Item.enneagram">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="#000000"
+            android:gravity="center"
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="에니어그램(Enneagram)은 사람을 9가지 성격으로 분류하는
+            성격 유형 지표이자 인간이해의 틀입니다.
+            대한민국에서는 2001년에 윤운성교수에 의해
+한국형 에니어그램 성격검사가 정식출판되었습니다." />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="386dp"
+            app:srcCompat="@drawable/enneagram" />
+
+        <Button
+            android:id="@+id/goenneagram"
+            android:layout_width="217dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:text="무료검사하러가기"
+            android:textSize="10sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
